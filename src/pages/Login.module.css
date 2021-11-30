@@ -1,0 +1,28 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login > img {
+  height: 200px;
+}
+
+.login > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1rem;
+  border-radius: 99px;
+  font-weight: 800;
+  background-color: #1db954;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .login > img {
+    height: 100px;
+  }
+}

@@ -1,0 +1,28 @@
+.home {
+  width: 100%;
+  overflow-y: overlay;
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+  margin-left: 230px;
+  margin-bottom: 60px;
+  padding: 1rem;
+}
+.home::-webkit-scrollbar {
+  display: none;
+}
+.greetings {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 7px;
+}
+
+@media (max-width: 600px) {
+  .home {
+    margin-left: 0;
+  }
+  .greetings {
+    font-size: 1.5rem;
+  }
+}

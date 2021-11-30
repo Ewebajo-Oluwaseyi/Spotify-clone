@@ -1,0 +1,21 @@
+.trackSearch {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+.title {
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+.artist {
+  color: gray;
+  font-size: 11px;
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

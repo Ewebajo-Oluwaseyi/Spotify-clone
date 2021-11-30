@@ -1,0 +1,15 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.player__body {
+  display: flex;
+  flex-grow: 1;
+}
+.sidebar {
+  display: block;
+}

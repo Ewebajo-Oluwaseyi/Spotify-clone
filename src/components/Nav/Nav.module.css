@@ -1,0 +1,101 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+.NavArrow {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.NavArrow div:nth-child(1) {
+  margin-right: 1rem;
+}
+.NavArrow div {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(34, 34, 34, 0.623);
+  color: grey;
+  font-size: 1rem;
+}
+
+.NavArrow div:hover {
+  background-color: rgba(54, 54, 54, 0.623);
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+.NavSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavSearch input {
+  width: 70%;
+  height: 30%;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  background-color: black;
+  color: white;
+}
+.NavSearch span {
+  width: 50px;
+  height: 30%;
+  padding: 0.8rem;
+  padding-right: 0rem;
+  border-top-left-radius: 30rem;
+  border-bottom-left-radius: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.result {
+  position: absolute;
+  right: 20px;
+  width: 20%;
+  top: 75px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: black;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .NavSearch input {
+    width: 50%;
+  }
+  .NavSearch span {
+    width: 20%;
+  }
+  .result {
+    left: 30px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .NavArrow {
+    display: none;
+  }
+  .NavSearch {
+    justify-items: flex-end;
+  }
+}
