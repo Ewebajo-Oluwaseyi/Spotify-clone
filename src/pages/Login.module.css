@@ -14,12 +14,13 @@
 .login > a {
   color: white;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px 20px;
   font-size: 1rem;
-  border-radius: 99px;
+  border-radius: 10px;
   font-weight: 800;
   background-color: #1db954;
   cursor: pointer;
+  letter-spacing: 2px;
 }
 @media (max-width: 600px) {
   .login > img {
