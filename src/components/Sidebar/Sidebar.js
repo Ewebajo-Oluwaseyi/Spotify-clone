@@ -12,7 +12,7 @@ function Sidebar() {
             />
             <SidebarOption option="Home" icon="fas fa-home"/>
             <SidebarOption option="Search" icon="fas fa-search"/>
-            <SidebarOption option="Your Library" icon="fal fa-books"/>
+            <SidebarOption option="Your Library" icon="fas fa-books"/>
             <br/>
         </div>
     )
